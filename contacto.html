@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Site Metas -->
+	<title>Vásquez Transporte - Contácto</title>
+	<meta name="keywords" content="">
+    <meta name="description" content="Vásquez Transporte es una compañía que brinda servicios en el área de contrsucción.">
+    <meta name="author" content="Vásquez Transporte">
+
+    <!-- Site Icons -->
+	<link rel="shortcut icon" href="img/vasquez-trans/icono_vasquez-transportes.png" type="img/x-icon" />
+	<link rel="apple-touch-icon" href="img/vasquez-trans/icono_vasquez-transportes.png">
+
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+
+    <!-- Site CSS -->
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style-contacto.css">
+    <link rel="stylesheet" href="css/social-bar.css">
+
+</head>
+<body>
+
+	<div class="lds-ring loader" id="loader"><div></div><div></div><div></div><div></div></div>
+    <header class="header">
+
+        <nav class="navbar navbar-expand-lg header-nav fixed-top">
+            <a class="navbar-brand" href="index.html"><img src="img/vasquez-trans/Vasquez-logo-vertical.jpg" class="img-fluid"  alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+            </button>
+        
+            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Servicios
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="tierra.html">Movimiento de Tierra</a>
+                    <a class="dropdown-item" href="volquetas.html">Alquiler de Volquetas</a>
+                    <a class="dropdown-item" href="servicios.html">Materiales Pétreos</a>
+                </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="contacto.html">Contácto</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+
+    </header>
+    
+
+        <div class="header-backup"></div>
+
+        
+		<!-- contact section starts here-->
+	<div class="container-contact">
+		<h1>Ponerse en contacto</h1>
+		<p>No dude en preguntar si tiene alguna pregunta sobre nuestros servicios o si solo quiere decir hola, nos encantaría saber de usted.</p>
+
+		<div class="contents">
+
+			<div class="info">
+			
+				<h3>información del contacto</h3><br>
+			
+				
+
+				<div class="col">
+				<i class="icono fas fa-calendar"></i>
+				<p>Lunes - Viernes: 08:00 AM a 17:00 PM</p>
+				</div>
+
+				<div class="col">
+					<i class="icono fas fa-map-marker-alt"></i>
+					<p>Kenedy Norte Mz. 804 Sl. 2 - Ecuador</p>
+				</div>
+
+				<div class="col">
+					<i class="icono fas fa-envelope"></i>
+					<p>grupovasquez.transporte@gmail.com</p>
+				</div>
+
+				<div class="col">
+					<i class="icono fas fa-phone"></i>
+					<p>(+593) 9869498275</p>
+				</div>
+				<hr class="border-bottom">
+				
+				<div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d352.40325154520116!2d-79.90192950845885!3d-2.1583927376571506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc2e41dad459fc3d4!2sTransportes%20V%C3%A1squez!5e0!3m2!1ses!2sec!4v1619631121701!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+				</div>
+			</div>
+			
+			<form action="correo.php" method="POST" class="formulario">
+
+				<h3>déjanos un mensaje</h3><br>
+
+				<input type="text" name="nombre" placeholder="Nombre" id="nombre">
+				<input type="text" name="correo" placeholder="Correo electrónico" id="correo">
+				<input type="text" name="asunto" placeholder="Asunto" id="asunto">
+				<textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+				<button type="button" onclick="validarFormulario()">Enviar</button>
+
+
+			</form>
+		
+		</div>
+	</div>
+		
+    
+        <footer>
+            <div class="verybottom">
+              <div class="container">
+                <div class="row">
+                    <div class="aligncenter">
+                    <div class="logo-footer">
+                        <a  href="#inicio"><img src="img/vasquez-trans/logo_vasquez-transportes-footer.png" alt=""></a>
+                      </div>
+                        <p class="footer-links">
+                            <a href="index.html">Inicio</a>
+                            <a href="nosotros.html">Nosotros</a>
+                            <a href="servicios.html">Servicios</a>
+                            <a href="contacto.html">Contácto</a>
+                        </p>
+                      <div class="footer-company-name">
+                        <p>&copy;2021 Vásquez Transporte - All right reserved</p>
+                      </div>
+
+                    </div>
+                </div>
+              </div>
+            </div>
+        </footer>
+        
+
+        <div class="social-body">
+            <ul>
+                <li class="facebook"><a href="https://www.facebook.com/vasqueztransportes" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="whatsapp"><a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                <li class="twitter"><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li class="instagram"><a href="https://www.instagram.com/vasqueztransportes" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                
+            </ul>
+        </div>
+
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+/* estilos  */
+
+/* estilos generales */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+.alert{
+  display: block;
+  padding: 12px 20px;
+  background: #f8d7da;
+  color: #721c24;
+  margin-bottom: 10px;
+  border: 1px solid #f5c6cb;
+}
+
+body{
+  background: #f2f2f2;
+  font-size: 16px;
+}
+
+.contact-map iframe{
+  margin-top: 10px;
+  border: 1px solid rgba(0, 0, 0, .5);
+  width: 100%;
+	height: 250px;
+
+}
+
+.container-contact{
+  width: 90%;
+  max-width: 1000px;
+  background: #fff;
+  padding: 30px;
+  margin: 40px auto;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+}
+
+.container-contact h1{
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #F64938;
+  margin-top: -10px
+}
+.container-contact p{
+  font-size: 15px;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 600;
+  color: black;
+}
+
+.info h3, .formulario h3{
+  text-align: center;
+  font-weight: 800;
+  padding-top: 20px;
+}
+
+.contents{
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.contents .info,
+.contents .formulario{
+  width: 50%;
+}
+
+/* ===========================================
+Estilos info
+============================================== */
+.info{
+  padding-left: 10px;
+}
+.info h3{
+  text-transform: uppercase;
+  color: #0a398a;
+}
+.info .col{
+  width: 100%;
+  display: flex;
+  margin-bottom: 15px;
+  font-size: 16px;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.info .col .icono{
+  color: #0a398a;
+  margin-right: 10px;
+  margin-bottom: -20px;
+}
+
+.info .col p{
+  color: #999;
+  font-size: 16px;
+}
+
+
+
+
+/* ===========================================
+Estilos formulario
+============================================== */
+
+.formulario{
+  padding-left: 10px;
+}
+.formulario h3{
+  text-transform: uppercase;
+  color: #0a398a;
+}
+
+.formulario input[type='text'],
+.formulario textarea{
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px 20px;
+  border: 1px solid #999;
+  color: #999;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 400;
+  outline: 0;
+}
+
+.formulario textarea{
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 150px;
+  max-height: 200px;
+}
+
+.formulario input[type='text']:focus,
+.formulario textarea:focus{
+  border: 1px solid #0a398a;
+}
+
+.formulario button{
+  width: 180px;
+	height: 50px;
+  font-size: 20px;
+  padding: 12px 30px;
+  border: transparent;
+  color: #fff;
+  cursor: pointer;
+  float: right;
+  font-family: 'BenchNine', sans-serif;
+	font-weight: bold;
+  background: url(../img/btn-bg.jpg);
+  background-repeat: no-repeat;
+	padding: 0;
+}
+.formulario button:hover{
+  background: #F64938;
+}
+
+
+@media (max-width: 520px){
+ .container-contact{
+     padding: 40px 20px;
+ }
+
+ .contents .info,
+ .contents .formulario{
+     width: 100%;
+     padding: 0px;
+ }
+
+ .contents .info{
+     margin-bottom: 30px;
+ }
+}
+
+@media (max-width: 800px){
+
+  .contents .info,
+  .contents .formulario{
+      width: 100%;
+      padding: 0px;
+  }
+
+  .contents .info{
+      margin-bottom: 30px;
+  }
+  .info .col p{
+    font-size: 13px;
+  }
+}
